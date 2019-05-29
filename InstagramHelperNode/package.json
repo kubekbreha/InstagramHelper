@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "instagram-private-api": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.3",
+    "typescript": "^3.4.5"
   }
 }
